@@ -1,0 +1,73 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #f0f0f0; /* Light gray background color */
+  background-image: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Gradient background */
+  min-height: 100vh; /* Ensure background covers full height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  background-color: white; /* White background for form */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for form */
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+label {
+  margin: 10px 0;
+  display: block;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  margin: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff; /* Blue color for button */
+  color: white; /* White text color for button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.userCard {
+  background-color: white; /* White background for user cards */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  display: inline-block;
+  text-align: left;
+}
+
+.userCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.userCard p {
+  word-wrap: break-word;
+}
+
+.userData {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
